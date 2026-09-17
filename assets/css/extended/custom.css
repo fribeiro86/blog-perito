@@ -1,0 +1,21 @@
+:root {
+    /* Cores para o modo claro */
+    --theme: #ffffff;      /* Cor de fundo geral (branco) */
+    --entry: #f8f8f8;      /* Fundo de cards/blocos (cinza bem claro) */
+    --primary: #000000;    /* Texto principal (preto) */
+    --secondary: #f15a24;  /* Destaques, links, botões (laranja) */
+    --tertiary: #e0e0e0;   /* Bordas e detalhes sutis (cinza claro) */
+    --content: #333333;    /* Texto do conteúdo (cinza escuro) */
+    --border: #eaeaea;     /* Linhas divisórias */
+}
+
+.dark {
+    /* Cores para o modo escuro (mantendo o laranja) */
+    --theme: #1d1e20;
+    --entry: #2e2e33;
+    --primary: #dadadb;
+    --secondary: #f15a24;  /* O laranja continua aqui */
+    --tertiary: #41444a;
+    --content: #c4c4c5;
+    --border: #333;
+}
