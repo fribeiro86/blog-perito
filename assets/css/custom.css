@@ -1,0 +1,76 @@
+:root {
+    /* ===== MODO CLARO ===== */
+    --theme: #ffffff;           /* Fundo geral da página */
+    --entry: #f8f8f8;           /* Fundo de cards e blocos */
+    --primary: #000000;         /* Texto principal, títulos */
+    --secondary: #f15a24;       /* Laranja — links, botões, destaques */
+    --tertiary: #e0e0e0;        /* Bordas e detalhes sutis */
+    --content: #333333;         /* Texto do conteúdo */
+    --border: #eaeaea;          /* Linhas divisórias */
+    --code-bg: #f5f5f5;         /* Fundo de blocos de código */
+    --code-block-bg: #f5f5f5;   /* Fundo de code blocks */
+    --code-block-text: #24292e; /* Texto em code blocks */
+    --hljs-bg: #f5f5f5;         /* Fundo de syntax highlight */
+}
+
+.dark {
+    /* ===== MODO ESCURO ===== */
+    --theme: #1d1e20;           /* Fundo geral escuro */
+    --entry: #2e2e33;           /* Fundo de cards escuro */
+    --primary: #dadadb;         /* Texto principal escuro */
+    --secondary: #f15a24;       /* Laranja mantido */
+    --tertiary: #41444a;        /* Bordas escuras */
+    --content: #c4c4c5;         /* Texto de conteúdo escuro */
+    --border: #333333;          /* Linhas divisórias escuras */
+    --code-bg: #2e2e33;         /* Fundo código escuro */
+    --code-block-bg: #2e2e33;   /* Code block escuro */
+    --code-block-text: #e6e6e6; /* Texto code block escuro */
+    --hljs-bg: #2e2e33;         /* Syntax highlight escuro */
+}
+
+/* ===== AJUSTES EXTRAS COM O LARANJA ===== */
+
+/* Links com hover laranja */
+a {
+    color: var(--secondary);
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* Botão de menu ativo */
+#menu a:hover,
+#menu a.active {
+    color: var(--secondary);
+}
+
+/* Título do site */
+.logo a {
+    color: var(--primary);
+}
+
+.logo a:hover {
+    color: var(--secondary);
+}
+
+/* Botão "top" (voltar ao topo) */
+.top-link {
+    background: var(--secondary);
+    color: #ffffff;
+}
+
+.top-link:hover {
+    background: var(--primary);
+}
+
+/* Cabeçalho de posts */
+.post-title a:hover {
+    color: var(--secondary);
+}
+
+/* Footer */
+.footer a {
+    color: var(--secondary);
+}
